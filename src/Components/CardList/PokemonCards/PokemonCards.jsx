@@ -4,12 +4,14 @@ import styles from "./PokemonCards.module.scss";
 export default class PokemonCards extends Component {
 
     render () {
+        const pokemonData = this.props.pokemonData
         return (
             <section className={styles.card}>
-                <p>Name: {this.props.cardData.Name}</p>
-                <p>Category: {this.props.cardData.Category}</p>
-                <p>Height: {this.props.cardData.Height}</p>
-                <p>Weight: {this.props.cardData.Weight}</p>
+                <img src={pokemonData.Image} alt="#"></img>
+                <p>Name: {pokemonData.Name}</p>
+                <p>Category: {pokemonData.Category}</p>
+                <p>Height: {pokemonData.Height}</p>
+                <p>Weight: {pokemonData.Weight}</p>
             </section>
 
         );

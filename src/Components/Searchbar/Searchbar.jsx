@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styles from "./Searchbar.module.scss";
 
-export default class Searchbar extends Component {
+export default class SearchBar extends Component {
     render () {
         return (
             <input
