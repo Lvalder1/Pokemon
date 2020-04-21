@@ -1,6 +1,6 @@
 # Pokemon
 
-This project was created using React and uses a Firebase database to display information related to Pokemon. There is also a search bar that can be used to search through the pokemon by name.
+This project was created using React and uses a Firebase database to display information related to Pokemon. There is also a search bar that can be used to search through the Pokemon by name.
 
 ## Running The Project
 
