@@ -2,13 +2,13 @@ import firebase from "firebase";
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-apiKey: "AIzaSyCMc4ekogjsJNnXXJR0iPwV6tKva4g7fnI",
-authDomain: "pokemon-227e9.firebaseapp.com",
-databaseURL: "https://pokemon-227e9.firebaseio.com",
-projectId: "pokemon-227e9",
-storageBucket: "pokemon-227e9.appspot.com",
-messagingSenderId: "281111916786",
-appId: "1:281111916786:web:9cbe84936897a47f56206b"
+apiKey: "AIzaSyCKdfjc6HSbdwnvwPCAJTqieymQfQCnNkk",
+authDomain: "pokemon-1-6d5d8.firebaseapp.com",
+databaseURL: "https://pokemon-1-6d5d8.firebaseio.com",
+projectId: "pokemon-1-6d5d8",
+storageBucket: "pokemon-1-6d5d8.appspot.com",
+messagingSenderId: "111020725330",
+appId: "1:111020725330:web:18a96791dc0818d2163b8b"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

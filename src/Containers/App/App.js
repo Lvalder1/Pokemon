@@ -26,7 +26,7 @@ filterpokemon = () => {
 
 componentDidMount() {
     firestore
-        .collection("pokemon")
+        .collection("Pokemon")
         .get()
         .then((query) => {
             const pokemon = query.docs.map(doc => doc.data());
@@ -42,7 +42,6 @@ componentDidMount() {
         <>
           <SearchBar searchText={this.state.searchText} setSearchText={this.setSearchText} />
           <CardList filteredpokemon={this.state.filteredpokemon} />
-          ))}
         </>
       )
     }
