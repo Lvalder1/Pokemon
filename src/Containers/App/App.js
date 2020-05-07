@@ -19,7 +19,9 @@ setSearchText = (event) => {
 
 filterpokemon = () => {
     let filteredpokemon = this.state.pokemon.filter(poke => {
-        return poke.Name.includes(this.state.searchText);  
+        return poke.Name
+        .toUpperCase()
+        .includes(this.state.searchText.toUpperCase());  
     })
     this.setState({ filteredpokemon });
 }
